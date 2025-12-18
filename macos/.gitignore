@@ -1,0 +1,12 @@
+# Flutter-related
+**/Flutter/ephemeral/
+**/Pods/
+
+# Xcode-related
+**/dgph
+**/xcuserdata/
+
+# Firebase (SENSIBLE)
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist

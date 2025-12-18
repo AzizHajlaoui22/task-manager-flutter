@@ -1,0 +1,46 @@
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.packages
+.pub-cache/
+build/
+coverage/
+.flutter-plugins-dependencies
+
+# =========================
+# Firebase (DO NOT COMMIT)
+# =========================
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+.firebase/
+firebase-debug.log
+
+# =========================
+# Android
+# =========================
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# =========================
+# iOS / macOS
+# =========================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+macos/Pods/
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
