@@ -1,3 +1,4 @@
+//C:\dev\task_manager\lib\providers\auth_provider.dart
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

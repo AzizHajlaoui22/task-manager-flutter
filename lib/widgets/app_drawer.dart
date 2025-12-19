@@ -1,9 +1,10 @@
+//C:\dev\task_manager\lib\widgets\app_drawer.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/auth_provider.dart';
 import '../screens/about/about_screen.dart';
-import '../screens/api/quotes_screen.dart';
+//import '../screens/api/quotes_screen.dart';
 
 class AppDrawer extends StatelessWidget {
   const AppDrawer({super.key});
@@ -28,19 +29,6 @@ class AppDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (_) => const AboutScreen(),
-                ),
-              );
-            },
-          ),
-
-          // Citations (API REST)
-          ListTile(
-            
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => const QuotesScreen(),
                 ),
               );
             },
